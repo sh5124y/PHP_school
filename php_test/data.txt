@@ -1,0 +1,5 @@
+diretory
+The directory path that is to be opened
+context
+For a description of the context parameter
+refer to the streams section of the manual.

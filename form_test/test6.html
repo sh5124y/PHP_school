@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>좋아하는 과일을 선택하세요 </h1>
+    <form method="post" action="test6_1.php">
+        <input type="checkbox" name="fruit[]" value="apple"> Apple </br>
+        <input type="checkbox" name="fruit[]" value="banana"> Banana </br>
+        <input type="checkbox" name="fruit[]" value="mango"> Mango </br>
+        <input type="checkbox" name="fruit[]" value="melon"> Melon </br>
+        <button type="submit">확인</button>
+        <hr>
+        <h1>성별을 선택하세요</h1>
+            <input type="radio" name="gender" value="man">남자</br>
+            <input type="radio" name="gender" value="woman">여자</br>
+            <button type="submit">확인</button>
+        <hr>
+        <h1>선택하세요</h1>
+        <select name="sel">
+            <option value="서울">서울</option>
+            <option value="부산">부산</option>
+            <option value="인천">인천</option>
+            <option value="대구">대구</option>
+            <option value="제주">제주</option>
+        </select>
+        <button type="submit">확인</button>
+    </form>
+</body>
+</html>
